@@ -35,6 +35,12 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.headerul2 {
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
 .headerul li {
   list-style:none;
   margin: 0 15px;
