@@ -14,11 +14,8 @@ body {
 
 /* Button Glow */
 
-
-.centerdiv {
-  width: 80%;
-  position:static;
-
+h1 {
+  color:rgb(255, 123, 0);
 }
 
 .headerdiv {
@@ -111,7 +108,7 @@ font-size: 40px;;
 
 #headerulActivePage {
   color: #fa6400;
-  
+
   text-shadow:-1px 0 #616161,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px #fa6400,1px 1px #fa6400,-1px 1px #fa6400,1px -1px #fa6400;
 font-size: 35px;;
 
@@ -161,18 +158,7 @@ font-size: 35px;;
   padding: 20px;
 }
 
-/* Footer */
-.footer {
-  position: absolute;
-  bottom: 5px;
-  left: 0px;
-  width: 100%;
-  text-align: center;
-  background: rgb(0, 0, 0);
-  color: rgb(77, 77, 77);
 
-  
-}
 
 .title {
 position: relative;
@@ -185,6 +171,43 @@ font-size: 50px;
 }
 
 
+.centerdiv {
+
+  margin:0px;
+ padding: 1%;
+  display: flex;
+  flex:100%;
+ /* min-height: 100%;
+  height: 80%;
+  */
+  justify-content: center;
+
+}
+
+.centerdivtext {
+
+  margin:5px;
+ padding: 1%;
+
+ /* min-height: 100%;
+  height: 80%;
+  */
+  justify-content: center;
+
+}
+
+/* Footer */
+.footer {
+  position: sticky;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  color: rgb(77, 77, 77);
+
+  
+}
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
