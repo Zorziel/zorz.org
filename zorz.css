@@ -191,6 +191,8 @@ text-align: center;
 color: rgb(255, 123, 0);
 padding-bottom: 14px;
 padding-top: 10px;
+text-decoration: none;
+font-size: 50px;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
