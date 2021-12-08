@@ -15,6 +15,11 @@ body {
 /* Button Glow */
 
 
+.centerdiv {
+  width: 80%;
+  position:static;
+
+}
 
 .headerdiv {
   margin:5px;
@@ -103,9 +108,11 @@ text-shadow:-1px 0 #fa6400,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px 
 font-size: 40px;;
 }
 
+
 #headerulActivePage {
-  color:rgb(111, 0, 255);
-  text-shadow:-1px 0 #fa6400,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px #fa6400,1px 1px #fa6400,-1px 1px #fa6400,1px -1px #fa6400;
+  color: #fa6400;
+  
+  text-shadow:-1px 0 #616161,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px #fa6400,1px 1px #fa6400,-1px 1px #fa6400,1px -1px #fa6400;
 font-size: 35px;;
 
 }
@@ -120,25 +127,7 @@ font-size: 35px;;
   justify-content: center;
 }
 
-/* Style the top navigation bar */
-.navbar {
-  display: flex;
-  background-color: #333;
-}
 
-/* Style the navigation bar links */
-.navbar a {
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-
-  color: black;
-}
 
 
 /* Column container */
@@ -175,7 +164,7 @@ font-size: 35px;;
 /* Footer */
 .footer {
   position: absolute;
-  bottom: 0px;
+  bottom: 5px;
   left: 0px;
   width: 100%;
   text-align: center;
