@@ -9,6 +9,7 @@
 
 body {
   background: #000000;
+  color: #868686;
 }
 
 /* Button Glow */
@@ -102,7 +103,12 @@ text-shadow:-1px 0 #fa6400,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px 
 font-size: 40px;;
 }
 
+#headerulActivePage {
+  color:rgb(111, 0, 255);
+  text-shadow:-1px 0 #fa6400,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px #fa6400,1px 1px #fa6400,-1px 1px #fa6400,1px -1px #fa6400;
+font-size: 35px;;
 
+}
 /* Header/logo Title */
 .header {
   position: relative;
