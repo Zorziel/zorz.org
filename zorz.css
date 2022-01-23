@@ -21,9 +21,10 @@ h1 {
 
 .h1title {
   color:rgb(255, 123, 0);
-  margin: 5px 0 20px 0;
+  margin: 5px 0 5px 0;
   position: relative;
   text-align: center;
+  font-size: 35px;
 }
 
 h2, h3 { margin: 10px 0 15px 0; }
