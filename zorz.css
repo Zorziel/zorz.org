@@ -16,7 +16,17 @@ body {
 
 h1 {
   color:rgb(255, 123, 0);
+  margin: 5px 0 20px 0;
 }
+
+.h1title {
+  color:rgb(255, 123, 0);
+  margin: 5px 0 20px 0;
+  position: relative;
+  text-align: center;
+}
+
+h2, h3 { margin: 10px 0 15px 0; }
 
 .headerdiv {
   margin:5px;
