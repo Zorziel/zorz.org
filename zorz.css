@@ -19,6 +19,13 @@ body {
 
 /* Button Glow */
 
+/* Color gradient */
+#grad1 {
+  height: 200px;
+  background-color: 000000; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#171717, #000000, 171717);
+}
+
 h1 {
 
   color:rgb(255, 123, 0);
@@ -41,10 +48,12 @@ h2, h3 { margin: 10px 0 15px 0; }
   margin:5px;
  padding: 1%;
   background: #000000;  
+  background-color: #000000; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#171717, #000000,   #000000, #000000,  #171717);
   display: flex;
   gap: 0.5rem;
   flex:1;
-  
+  /*height: 100px;*/
   justify-content: center;
 }
 
@@ -193,7 +202,8 @@ color: rgb(255, 123, 0);
 padding-bottom: 14px;
 padding-top: 10px;
 text-decoration: none;
-font-size: 50px;
+font-size: 55px;
+font-family: "orbitron";
 }
 
 
