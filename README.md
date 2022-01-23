@@ -5,12 +5,17 @@
 This repository contains the code for my site (zorz.org), which I initially had as a WordPress site but decided I hate JS so I'm writing from scratch in just pure HTML and CSS for the main pages.  
 
 ## Why
-Because, fuck JavaScript and what it has done to the web.  Yes, I understand how incredibly useful it is for rich and interactive web and app interfaces but the exploitation by advertisers and others just makes it disgusting to me.  
+Because, fuck JavaScript and what it has done to the web.  Yes, I understand how incredibly useful it is for rich and interactive web and app interfaces but the exploitation by advertisers, the slowness compared to other functional languages, the overall bloat, and plenty of other problems just makes JavaScript disgusting to me.  
 
 ## Next Steps/To-Do:
-- [ ] Complete menu
+### In Progress: 
+- [ ] Complete menu 
 - [ ] Finish design
-- [ ] Decide on fonts
 - [ ] Create various sites
-- [ ] Set license
-- [ ] 
+
+### Decisions: 
+- [ ] Decide on fonts 
+  - [ ]  Orbitron
+  - [ ]  Russo One
+- [ ] Set license (GPL3?  MIT? CC-BY-SA? CC-0?)
+
