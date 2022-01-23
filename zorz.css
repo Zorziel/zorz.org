@@ -17,8 +17,15 @@
 /* Main Body */
 
 body {
+  /*
   background: #000000;
   color: #868686;
+*/
+  font-family: "MS Shell Dlg 2"; 
+  font-weight: normal; 
+  font-size: 12pt; 
+  color: #cec9c3; 
+  background-color: #171717;
 }
 
 /* Button Glow */
@@ -34,7 +41,7 @@ h1 {
 
   color:rgb(255, 123, 0);
   margin: 5px 0 20px 0;
-  font-family: "orbitron", "Russo One"; 
+  font-family: "orbitron", sans-serif; 
   font-weight: bold; 
 }
 
@@ -48,7 +55,7 @@ h1 {
 
 h2, h3 { 
   margin: 10px 0 15px 0; 
-  font-family: "russo";
+  font-family: "russo", sans-serif;
 }
 
 .headerdiv {
