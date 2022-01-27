@@ -11,13 +11,3 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ /$1.html [L,QSA]
 
 # Redirect capitalization issues and spelling
-# Redirect /index.html https://zorz.org
-Redirect /addict.html /AdDiCt
-Redirect /AdDiCt.html /AdDiCt
-Redirect /gaming.html /AdDiCt
-Redirect /games.html /AdDiCt
-Redirect /InvalidTarget.html /InvalidTarget
-Redirect /invalidtarget.html /InvalidTarget
-Redirect /invalidtarget /InvalidTarget
-Redirect /it /InvalidTarget
-Redirect /dj /InvalidTarget
