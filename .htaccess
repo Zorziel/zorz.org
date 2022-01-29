@@ -10,4 +10,11 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ /$1.html [L,QSA]
 
+# Clean URLs
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.html [NC,L]
+
+
+
 # Redirect capitalization issues and spelling
