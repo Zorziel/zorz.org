@@ -1,16 +1,12 @@
 # Add Error Page
+# 403 - Forbidden
+# 404 - Not found
 ErrorDocument 404 /404.html
 Options +FollowSymlinks
 
 
-# Clean URLs
-RewriteEngine On
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteRule ^([^.]+)$ $1.html [NC,L]
-
-
 # Allow URLs without extensions
-#RewriteEngine On
+RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -18,7 +14,16 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ /$1.html [L,QSA]
 
 
+# Remove html file extension 
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*index\ HTTP/
+RewriteRule ^(.*)index$ https://zorz.org/$1 [L,R=301]
 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/$ https://zorz.org/$1 [L,R=301]
 
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.+)\.html\ HTTP/
+RewriteRule ^(.+)\.html$ https://zorz.org/$1 [L,R=301]
+RewriteRule ^([a-z]+)$ /$1.html [L]
 
 # Redirect capitalization issues and spelling
