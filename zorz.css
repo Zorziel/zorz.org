@@ -36,6 +36,8 @@ body {
   background-image: linear-gradient(#171717, #000000, 171717);
 }
 
+
+/* Header Styles */
 h1 {
 
   color:rgb(255, 123, 0);
@@ -55,6 +57,10 @@ h1 {
 h2, h3 { 
   margin: 10px 0 15px 0; 
   font-family: "Russo One", sans-serif;
+}
+
+h3, h4 {
+  font-style: italic;
 }
 
 .headerdiv {
