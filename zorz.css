@@ -75,10 +75,32 @@ h3, h4 {
   /*height: 100px;*/
   justify-content: center;
 }
+.headersubdiv {
+  margin:2px;
+ padding: 1.25%;
+ /* background: #292929;  */
+  /* background-color: #000000; /*For browsers that do not support gradients */
+  /*background-image: linear-gradient(#171717,   #000000,  #171717);*/
+  display: flex;
+  gap: 0.5rem;
+  flex:1;
+  /*height: 100px;*/
+  justify-content: center;
+}
 
 .headerul {
   display:flex;
   gap:0.5rem;
+  position: relative;
+  /*top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);*/
+  margin: 0 auto;
+}
+
+.headersubul {
+  display:flex;
+  gap:0.3rem;
   position: relative;
   /*top: 50%;
   left:50%;
@@ -91,6 +113,12 @@ h3, h4 {
   list-style:none;
   margin: 0 15px 0 15px;
 }
+
+.headersubul li {
+  list-style:none;
+  margin: 0 15px 0 15px;
+}
+
 
 .headerul li a {
   width: 130px;
@@ -106,7 +134,37 @@ h3, h4 {
 
 }
 
+.headersubul li a {
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+
+  border-radius: 10%;
+  font-size: 20px;
+  color: rgb(151, 151, 151);
+  text-decoration: none;
+  transition: .3s;
+
+}
+
 .headerul li a:before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  /*
+  border-radius:20%;
+  background: #fa6400;
+  transition: .3s;
+  transform: scale(.5);
+  */
+  z-index: -1;
+}
+
+.headersubul li a:before {
   content: '';
   position: absolute;
   top:0;
@@ -136,10 +194,30 @@ h3, h4 {
 
 }
 
+.headersubul li a:hover:before {
+  transform: scale(1.2);
+  /*
+  text-shadow: 3px 3px #d35400;
+    filter: blur(3px);
+  text-shadow: 1px 1px 5px rgb(255, 0, 0), 0 0 25px rgb(255, 153, 0), 0 0 5px rgb(255, 230, 0);
+  text-shadow: 5px 5px 10px #ff7b00,0 0 10px rgb(255, 136, 0), 0 0 25px rgb(255, 81, 0);
+
+  
+  text-shadow: 5px 5px 10px #ff7b00;
+  */
+
+}
+
 .headerul li a:hover {
   color:rgb(0, 0, 0);
   text-shadow:0 0 50px #fa6400,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px #fa6400,1px 1px #fa6400,-1px 1px #fa6400,1px -1px #fa6400;
   font-size: 40px;
+}
+
+.headersubul li a:hover {
+  color:rgb(0, 0, 0);
+  text-shadow:0 0 50px #fa6400,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px #fa6400,1px 1px #fa6400,-1px 1px #fa6400,1px -1px #fa6400;
+  font-size: 30px;
 }
 
 
@@ -149,6 +227,13 @@ h3, h4 {
   font-size: 35px;
 
     }
+
+    #headersubulActivePage {
+      color: #fc7100;
+      text-shadow:0 0 50px #fa6400,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px #fa6400,1px 1px #fa6400,-1px 1px #fa6400,1px -1px #fa6400;
+      font-size: 28px;
+    
+        }
      
 
 
