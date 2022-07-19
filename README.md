@@ -21,9 +21,9 @@ Yes, I understand how incredibly useful JS can be for rich and interactive web a
   
 
 ### Decisions: 
-- [ ] Decide on fonts 
-  - [ ]  Orbitron
-  - [ ]  Russo One
+- [x] Decide on fonts 
+  - [x]  Orbitron
+  - [x]  Russo One
 - [x] Set license 
 
 # Contributing
