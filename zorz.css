@@ -81,13 +81,13 @@ h3, h4 {
 }
 
 .headerdiv {
-  margin:5px;
- padding: 1.25%;
+  margin: 0px;
+ padding: 0.25%;
   background: #000000;  
   /* background-color: #000000; /*For browsers that do not support gradients */
-  background-image: linear-gradient(#171717, #080808,   #000000, #080808,  #171717);
+  background-image: linear-gradient(90deg, #171717 0%, #080808 40%,   #000000 50%, #080808 60%,  #171717 100%);
   display: flex;
-  gap: 0.5rem;
+  gap: 1.5rem;
   flex:1;
   /*height: 100px;*/
   justify-content: center;
@@ -292,12 +292,7 @@ h3, h4 {
   height: 100%;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
+
 
 
 
@@ -305,14 +300,16 @@ h3, h4 {
 position: relative;
 text-align: center;
 color: rgb(255, 123, 0);
-padding-bottom: 14px;
+padding-bottom: 12px;
 padding-top: 10px;
 text-decoration: none;
 font-size: 55px;
 font-family: "orbitron";
 }
 
-
+.title a:hover {
+  text-decoration: none;
+}
 .centerdiv {
 
   margin:0px;
@@ -379,7 +376,7 @@ font-family: "orbitron";
 
 
 /* CODE FORMATTING */
-pre, code { font-family: "Courier New"; font-weight: normal; font-size: 10pt; }
+/* pre, code { font-family: "Courier New"; font-weight: normal; font-size: 10pt; }
 pre { display: block; background-color: #444444; white-space: pre-wrap } 
 code { padding: 3px; overflow: auto; line-height: 1.45em; background-color: #444444; border-radius: 5px; color: #ffffff; } 
 .code-comment { color: #75715E; font-style: italic;} 
@@ -400,5 +397,5 @@ p > code, li > code {font-family: "Courier New"; font-weight: normal; font-weigh
 .code-other {font-family: "Courier New"; font-weight: normal; font-size: 9pt; color: #ff5100;}
 .code-literal {font-family: "Courier New"; font-weight: normal; font-size: 9pt; color: #03ff89;}
 
-.code-builtin {font-family: "Courier New"; font-weight: normal; font-size: 9pt; color: #07c2f6;}
+.code-builtin {font-family: "Courier New"; font-weight: normal; font-size: 9pt; color: #07c2f6;} */
 
