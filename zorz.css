@@ -55,6 +55,7 @@ th, td {padding: 2px 5px;}
 h1 {
 
   color:rgb(255, 123, 0);
+  
   /* margin: 5px 0 20px 0; */
   margin: 5px 0 5px 0;
   font-family: "Orbitron", sans-serif; 
@@ -115,6 +116,7 @@ h3, h4 {
   margin: 0 auto;
   justify-content: center;
   padding: 0%;
+  align-items: center;
 }
 
 .headersubul {
@@ -127,6 +129,7 @@ h3, h4 {
   margin: 0 auto;
   justify-content: center;
   padding: 0%;
+  align-items: center;
 }
 
 
@@ -247,9 +250,19 @@ h3, h4 {
 #headerulActivePage {
   color: #fc7100;
   text-shadow:0 0 50px #fa6400,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px #fa6400,1px 1px #fa6400,-1px 1px #fa6400,1px -1px #fa6400;
+ 
   font-size: 35px;
-
     }
+
+    #headerulActivePageWithSub {
+      /* color: #fc7100;
+      text-shadow:0 0 50px #fa6400,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px #fa6400,1px 1px #fa6400,-1px 1px #fa6400,1px -1px #fa6400;
+      */
+      font-size: 35px;
+      color:rgb(0, 0, 0);
+      text-shadow:0 0 50px #fa6400,0 1px #fa6400,1px 0 #fa6400,0 -1px #fa6400,-1px -1px #fa6400,1px 1px #fa6400,-1px 1px #fa6400,1px -1px #fa6400;
+        }
+    
 
     #headersubulActivePage {
       color: #009dff;
@@ -305,7 +318,8 @@ h3, h4 {
 .title {
 position: relative;
 text-align: center;
-color: rgb(255, 123, 0);
+/* color: rgb(255, 123, 0); */
+color: #ff5e00;
 padding-bottom: 12px;
 padding-top: 10px;
 text-decoration: none;
@@ -341,6 +355,7 @@ transition: .4s;
 } */
 
 
+
 .centerdiv {
 
   margin:0px;
@@ -353,6 +368,7 @@ transition: .4s;
   justify-content: center;
 
 }
+
 
 .centerdivtext {
 
